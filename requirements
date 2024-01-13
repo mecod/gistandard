@@ -8,5 +8,5 @@ httplib2
 six
 xlwt
 xlsxwriter
-mysqlclient
+mysqlclient==1.3.13
 pillow
