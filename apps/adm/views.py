@@ -7,7 +7,7 @@ from system.models import SystemSetup
 
 class AdmView(LoginRequiredMixin, View):
     """
-    行政
+    业务
     """
     def get(self, request):
         ret = Menu.getMenuByRequestUrl(url=request.path_info)
